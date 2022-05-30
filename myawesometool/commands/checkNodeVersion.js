@@ -13,12 +13,11 @@ function checkNodeVersion(fileName, dependency, version){
     .on('end', () => {
         // console.log(results);
         for(i=0;i<results.length;i++){
-            console.log(results[i].repo);
-            
+            var repo = "https://raw.githubusercontent.com"+results[i].repo.slice(18, )+"/main/package-lock.json";
+            console.log(repo);
         }
     });
     
 }
-
 
 module.exports = checkNodeVersion;
