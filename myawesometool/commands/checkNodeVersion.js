@@ -1,6 +1,8 @@
 
-function checkNodeVersion(data){
-    console.log(data);
+function checkNodeVersion(input, dependency, version){
+    console.log(input);
+    console.log(dependency);
+    console.log(version);
 }
 
 
