@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This tool can check if the system has a minimum required version of a dependency installed on it. Moreover, it provides with an option to to update the dependencies to a given version and make a pull request.",
   "main": "index.js",
+  "bin": {
+    "myawesometool": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

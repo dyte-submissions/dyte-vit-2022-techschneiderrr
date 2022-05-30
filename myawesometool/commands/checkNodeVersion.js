@@ -1,6 +1,6 @@
 
-function checkNodeVersion(){
-    console.log('Checking if the version of node is installed...');
+function checkNodeVersion(data){
+    console.log(data);
 }
 
 
