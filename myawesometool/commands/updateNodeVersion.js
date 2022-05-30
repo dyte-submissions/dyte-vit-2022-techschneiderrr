@@ -1,5 +1,5 @@
 
-function updateNodeVersion(){
+function updateNodeVersion(fileName, dependency, version){
     console.log('Updating the version of node installed...');
 }
 

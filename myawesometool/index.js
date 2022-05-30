@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 /*
 command structure would be like this:
 myawesometool check <input.csv> for <dependency> with <version>
@@ -10,7 +11,7 @@ const updateNodeVersion = require('./commands/updateNodeVersion.js');
 
 program
 .version('1.0.0')
-.description('Checks and updates the version of node installed');
+.description('Checks and updates the version of node modules installed');
 
 program
   .requiredOption('-c, --check <file>', 'helps to enter the csv file name to be checked')
