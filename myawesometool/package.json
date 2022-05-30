@@ -3,19 +3,11 @@
   "version": "1.0.0",
   "description": "This tool can check if the system has a minimum required version of a dependency installed on it. Moreover, it provides with an option to to update the dependencies to a given version and make a pull request.",
   "main": "index.js",
-  "bin": {
-    "myawesometool": "./index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dyte-submissions/dyte-vit-2022-techschneiderrr.git"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Manav Deep Singh Lamba",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dyte-submissions/dyte-vit-2022-techschneiderrr/issues"
-  },
-  "homepage": "https://github.com/dyte-submissions/dyte-vit-2022-techschneiderrr#readme",
   "dependencies": {
     "chalk": "^5.0.1",
     "commander": "^9.3.0"

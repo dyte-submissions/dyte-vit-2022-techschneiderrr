@@ -1,17 +1,16 @@
-#! /usr/bin/env node
-
 const { program } = require('commander');
-const checkNodeVersion = require('./commands/checkNodeVersion');
+const checkNodeVersion = require('./commands/checkNodeVersion.js');
+const updateNodeVersion = require('./commands/updateNodeVersion.js');
 program.version('1.0.0');
 
-// program
-//     .command('i')
-//     .description('Checks if the version of node is installed')
-//     .action(checkNodeVersion);
+program
+    .option('-i, --inspect', 'check node version')
+    .description('Checks if the version of node is installed')
+    .action(checkNodeVersion);
 
-// program
-//     .command('-update')
-//     .description('Updates the version of node')
-//     .action(updateNodeVersion);
-
+program
+    .option('-u, --update', 'check node version')
+    .description('Checks if the version of node is installed')
+    .action(updateNodeVersion);
+    
 program.parse(process.argv);

@@ -1,10 +1,7 @@
-const chalk = require('chalk');
 
 function checkNodeVersion(){
-    console.log(
-        chalk.green('Checking if the version of node is installed...')
-        );
+    console.log('Checking if the version of node is installed...');
 }
 
 
-modole.exports = checkNodeVersion;
+module.exports = checkNodeVersion;
