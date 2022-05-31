@@ -55,9 +55,13 @@ Above is a video demo of all the commands that can be executed after installatio
 ```sh 
 myawesometool --help
 ```
+
+- To check if the dependency in the projects of repositories listed in the csv file are upto-date or not.
 ```sh
 myawesometool --check <absolute path of the csv file> --for <dependency name> --withVersion <version number>
 ```
+
+- To update the dependency in the projects of repositories listed in the csv file that are not upto-date.
 ```sh
 myawesometool --update --check <absolute path of the csv file> --for <dependency name> --withVersion <version number>
 ```
