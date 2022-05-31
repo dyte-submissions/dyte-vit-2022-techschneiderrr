@@ -103,9 +103,9 @@ This is an example of how to list things you need to use the software and how to
    git clone https://github.com/dyte-submissions/dyte-vit-2022-techschneiderrr.git
    ```
 2. Go to the project directory   
-  ```sh
+   ```sh
    cd myawesometool
-  ```
+   ```
 3. Install NPM packages
    ```sh
    npm install
