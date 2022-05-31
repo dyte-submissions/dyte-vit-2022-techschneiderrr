@@ -142,7 +142,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Manav Deep Singh Lamba - [@twitter_handle](https://twitter.com/manav_lamba_)
+Manav Deep Singh Lamba - [@twitter_handle](https://twitter.com/manav_lamba_)
+
+Email - [manavdeep.singhlamba2019@vitstudent.ac.in](manavdeep.singhlamba2019@vitstudent.ac.in)
 
 Project Link: [https://github.com/dyte-submissions/dyte-vit-2022-techschneiderrr](https://github.com/dyte-submissions/dyte-vit-2022-techschneiderrr)
 
