@@ -51,7 +51,8 @@
 <img src="images/demo.gif" alt="demo" width="900" >
 
 Above is a video demo of all the commands that can be executed after installation of the project. The commands are : 
-```sh tosay
+- To see all the options available to use in the command.
+```sh 
 myawesometool --help
 ```
 ```sh
