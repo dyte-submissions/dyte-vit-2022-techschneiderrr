@@ -52,15 +52,18 @@
 <div id="commands"></div>
 Above is a video demo of all the commands that can be executed after installation of the project. The commands are : 
 
+
 1. To see all the options available to use in the command.
 ```sh
 myawesometool --help
 ```
 
+
 2. To check if the dependency in the projects of repositories listed in the csv file are upto-date or not.
 ```sh
 myawesometool --check <absolute path of the csv file> --for <dependency name> --withVersion <version number>
 ```
+
 
 3. To update the dependency in the projects of repositories listed in the csv file that are not upto-date.
 ```sh
