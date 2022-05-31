@@ -49,7 +49,7 @@
 ## About The Project
 
 <img src="images/demo.gif" alt="demo" width="900" >
-
+<div id="commands"></div>
 Above is a video demo of all the commands that can be executed after installation of the project. The commands are : 
 1. To see all the options available to use in the command.
 ```sh 
@@ -94,20 +94,24 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/dyte-submissions/dyte-vit-2022-techschneiderrr.git
    ```
+2. Go to the project directory   
+  ```sh
+  cd myawesometool
+  ```
 3. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+4. install the project on you local machine 
+   ```sh
+   sudo npm i -g
    ```
-
+5. fill your local machine's password
+6. Now you are good to go, we can run any command from the given 3 commands given <p align="right">(<a href="#commands">Here</a>)</p>.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
