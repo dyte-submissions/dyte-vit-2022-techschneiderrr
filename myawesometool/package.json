@@ -17,6 +17,7 @@
     "commander": "^9.3.0",
     "csv-parser": "^3.0.0",
     "node-fetch": "^3.2.4",
-    "semver": "^7.3.7"
+    "semver": "^7.3.7",
+    "sync-request": "^6.1.0"
   }
 }
