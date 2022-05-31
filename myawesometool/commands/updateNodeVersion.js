@@ -3,20 +3,19 @@ const csv = require('csv-parser')
 const fs = require('fs')
 const semver = require('semver')
 const results = [];
-const Table = require('cli-table3');
+const Table = require('cli-table3')
+const request = require('sync-request')
+const pr = require("pull-request")
+require("dotenv").config();
 var temp = [];
-const request = require('sync-request');
 
 var table = new Table({
     head: ['name', 'repo', 'version', 'version_satisfied', 'update_pr']
-  , colWidths: [30, 70,20,20,30]
+  , colWidths: [30,70,20,20,30]
 });
 
 
 function updateNodeVersion(fileName, dependency, version){
-    // console.log(fileName);
-    // console.log(dependency);
-    // console.log(version);
     fs.createReadStream(fileName)
     .pipe(csv({}))
     .on('data', (data) => results.push(data))
