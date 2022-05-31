@@ -1,7 +1,18 @@
 const https = require('https');
- const csv = require('csv-parser')
- const fs = require('fs')
- const results = [];
+const csv = require('csv-parser')
+const fs = require('fs')
+const semver = require('semver')
+const results = [];
+const Table = require('cli-table3');
+var temp = [];
+const request = require('sync-request');
+
+var table = new Table({
+    head: ['name', 'repo', 'version', 'version_satisfied']
+  , colWidths: [30, 70,20,20]
+});
+
+
 
 function checkNodeVersion(fileName, dependency, version){
     // console.log(fileName);
@@ -11,26 +22,46 @@ function checkNodeVersion(fileName, dependency, version){
     .pipe(csv({}))
     .on('data', (data) => results.push(data))
     .on('end', () => {
-        // console.log(results);
-        for(i=0;i<1;i++){
+        // console.log(Object.values(results[0])[0]);
+        for(var i=0;i<results.length;i++){
+            temp.push(Object.values(results[i])[0]);
             var repo = "https://raw.githubusercontent.com"+results[i].repo.slice(18, )+"/main/package-lock.json";
-            console.log(repo);
-            https.get(repo, function(res){
-                var body = '';
-                res.on('data', function(chunk){
-                    body += chunk;
-                });
-                res.on('end', function(){
-                    var data = JSON.parse(body);
-                    // for(j=0;j<data.packages[''].dependencies.length;j++){
-                        
-                    // }
-                    console.log(data.packages[''].dependencies[dependency].slice(1, ));
-                });
-            }).on('error', function(e){
-                  console.log("Got an error: ", e);
-            });
-        }
+            temp.push(results[i].repo);
+            var res = request('GET', repo);
+            var data = JSON.parse(res.getBody());
+            temp.push(data.packages[''].dependencies[dependency].slice(1, ));
+            if(semver.gte(data.packages[''].dependencies[dependency].slice(1, ),version)){
+                            temp.push('true');
+                        }
+                        else{
+                            temp.push('false');
+                        }
+            
+            // https.get(repo, function(res){
+            //     var body = '';
+            //     res.on('data', function(chunk){
+            //         body += chunk;
+            //     });
+            //     res.on('end', function(){
+            //         var data = JSON.parse(body);
+            //         console.log(data.packages[''].name);
+            //         temp.push(data.packages[''].dependencies[dependency].slice(1, ));
+            //         if(semver.gte(data.packages[''].dependencies[dependency].slice(1, ),version)){
+            //             console.log('true');
+            //         }
+            //         else{
+            //             console.log('false');
+            //         }
+            //     });
+                
+            // }).on('error', function(e){
+            //       console.log("Got an error: ", e);
+            // });
+            
+            table.push(temp);
+            temp = [] ;
+         }
+          console.log(table.toString());
     });
     
 }

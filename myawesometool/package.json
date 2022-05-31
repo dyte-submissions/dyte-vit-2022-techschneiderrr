@@ -12,6 +12,8 @@
   "author": "Manav Deep Singh Lamba",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.27.2",
+    "cli-table3": "^0.6.2",
     "commander": "^9.3.0",
     "csv-parser": "^3.0.0",
     "node-fetch": "^3.2.4",
