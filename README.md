@@ -81,7 +81,8 @@ Install the latest version npm
    ```sh
    npm install
    ```
-4. install the project on you local machine 
+4. Update the `.env` file by assigning `PERSONAL_ACCESS_TOKEN` a personal-access-token from your github account. 
+5. install the project on you local machine 
    ```sh
    sudo npm i -g
    ```
@@ -106,9 +107,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Roadmap (Features)
 
 - [x] Command to check if the dependency in the projects of repositories listed in the csv file are upto-date or not 
-- [ ] Command to update the dependency in the projects of repositories listed in the csv file that are not upto-date
+- [x] Command to update the dependency in the projects of repositories listed in the csv file that are not upto-date
     - [x] To identify which modules are required to be updated
-    - [ ] To send a pull request
+    - [x] To send a pull request
 
 
 
