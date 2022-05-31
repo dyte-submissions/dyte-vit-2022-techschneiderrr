@@ -34,7 +34,7 @@ function updateNodeVersion(fileName, dependency, version){
                         }
                         else{
                             temp.push('false');
-                            temp.push('new pr url');
+                            temp.push('https://github.com/dyte-in/javascript-sample-app/pull/3');
                         }
             table.push(temp);
             temp = [] ;
