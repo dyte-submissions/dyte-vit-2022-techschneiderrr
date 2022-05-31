@@ -90,7 +90,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Install the latest version npm
 * npm
   ```sh
   npm install npm@latest -g
@@ -120,24 +120,24 @@ This is an example of how to list things you need to use the software and how to
 
 
 
-<!-- USAGE EXAMPLES -->
+<!-- USAGE EXAMPLES
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p> -->
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ✅ ] Command to check if the dependency in the projects of repositories listed in the csv file are upto-date or not 
+- [ ] Command to update the dependency in the projects of repositories listed in the csv file that are not upto-date
+    - [ ✅ ] To identify which modules need to sent a pull request
+    - [ ] To send a pull request
 
 
 
