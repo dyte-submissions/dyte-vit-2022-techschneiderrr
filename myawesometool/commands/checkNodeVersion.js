@@ -36,28 +36,6 @@ function checkNodeVersion(fileName, dependency, version){
                         else{
                             temp.push('false');
                         }
-            
-            // https.get(repo, function(res){
-            //     var body = '';
-            //     res.on('data', function(chunk){
-            //         body += chunk;
-            //     });
-            //     res.on('end', function(){
-            //         var data = JSON.parse(body);
-            //         console.log(data.packages[''].name);
-            //         temp.push(data.packages[''].dependencies[dependency].slice(1, ));
-            //         if(semver.gte(data.packages[''].dependencies[dependency].slice(1, ),version)){
-            //             console.log('true');
-            //         }
-            //         else{
-            //             console.log('false');
-            //         }
-            //     });
-                
-            // }).on('error', function(e){
-            //       console.log("Got an error: ", e);
-            // });
-            
             table.push(temp);
             temp = [] ;
          }
