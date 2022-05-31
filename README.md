@@ -8,10 +8,10 @@
     <img src="images/Octocat.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">myAwesomeProject</h3>
+<h3 align="center">myAwesomeTool</h3>
 
   <p align="center">
-    This tool can check if the system has a minimum required version of a dependency installed on it. Moreover, it provides with an option to to update the dependencies to a given version and make a pull request.
+    This CLI tool can check if the system has a minimum required version of a dependency installed on it. Moreover, it provides with an option to to update the dependencies to a given version and make a pull request.
   </p>
 </div>
 
@@ -50,7 +50,16 @@
 
 <img src="images/demo.gif" alt="demo" width="900" >
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+Above is a video demo of all the commands that can be executed after installation of the project.
+```sh
+myawesometool
+```
+```sh
+myawesometool
+```
+```sh
+myawesometool
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -58,14 +67,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Node.js](https://nodejs.org/en/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -119,7 +121,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ true ] Feature 1
+- [ ] Feature 1
 - [ ] Feature 2
 - [ ] Feature 3
     - [ ] Nested Feature
