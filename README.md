@@ -134,10 +134,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-[ x ] Command to check if the dependency in the projects of repositories listed in the csv file are upto-date or not 
-[ ] Command to update the dependency in the projects of repositories listed in the csv file that are not upto-date
-     [ x ] To identify which modules need to sent a pull request
-      [ ] To send a pull request
+- [x] Command to check if the dependency in the projects of repositories listed in the csv file are upto-date or not 
+- [ ] Command to update the dependency in the projects of repositories listed in the csv file that are not upto-date
+    - [x] To identify which modules need to sent a pull request
+    - [ ] To send a pull request
 
 
 
