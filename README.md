@@ -111,7 +111,7 @@ This is an example of how to list things you need to use the software and how to
    sudo npm i -g
    ```
 5. fill your local machine's password
-6. Now you are good to go, we can run any command from the given 3 commands given <p align="right">(<a href="#commands">Here</a>)</p>.
+6. Now you are good to go, we can run any command from the given 3 commands given <span>(<a href="#commands">Here</a>)</spanp>.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
