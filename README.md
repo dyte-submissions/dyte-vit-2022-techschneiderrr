@@ -50,15 +50,15 @@
 
 <img src="images/demo.gif" alt="demo" width="900" >
 
-Above is a video demo of all the commands that can be executed after installation of the project.
-```sh
-myawesometool
+Above is a video demo of all the commands that can be executed after installation of the project. The commands are : 
+```sh tosay
+myawesometool --help
 ```
 ```sh
-myawesometool
+myawesometool --check <absolute path of the csv file> --for <dependency name> --withVersion <version number>
 ```
 ```sh
-myawesometool
+myawesometool --update --check <absolute path of the csv file> --for <dependency name> --withVersion <version number>
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
