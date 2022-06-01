@@ -21,7 +21,7 @@
 
 <img src="images/demo.gif" alt="demo" width="900" >
 <div id="commands"></div>
-<p>Above is a video demo of all the commands that can be executed after installation of the project. The complete video demo is available <a href="#vid">here</a>The commands are : </p>
+<p>Above is a video demo of all the commands that can be executed after installation of the project. The complete video demo is available <a href="#vid">here.</a> The commands are : </p>
 
 
 
