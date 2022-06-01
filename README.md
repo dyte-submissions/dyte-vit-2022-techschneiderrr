@@ -96,7 +96,7 @@ Install the latest version npm
 <!-- USAGE EXAMPLES -->
 ## Errors while tesing on windows
 
-<p>This can be the error if you are testing this tool on a windows based machine :</p>
+<p>1. This error can occur, if you are testing this tool on a windows based machine :</p>
 <img src="images/1.png" style="border:10px solid black" alt="error" width="900" ><br>
 
 To solve this issue run the following command on your shell :<br>
@@ -105,7 +105,7 @@ To solve this issue run the following command on your shell :<br>
   ```
 <br>
 
-<p>The following prompt will appear, simply select `yes to all` option : </p>
+<p>2. The following prompt will appear, simply select `yes to all` option : </p>
 <img src="images/2.png" style="border:10px solid black" alt="error" width="900" ><br>
 
 
