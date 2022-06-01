@@ -83,7 +83,7 @@ Install the latest version npm
    npm install
    ```
 4. Update the `.env` file by assigning `PERSONAL_ACCESS_TOKEN` a personal-access-token from your github account. 
-5. install the project on you local machine 
+5. Install the project on you local machine. 
    ```sh
    sudo npm i -g
    ```
@@ -97,7 +97,7 @@ Install the latest version npm
 ## Errors while tesing on windows
 
 This can be the error if you are testing this tool on a windows based machine :
-<img src="images/1.png" style="border:1px solid black" alt="error" width="900" >
+<img src="images/1.png" style="border:10px solid black" alt="error" width="900" >
 
 _For more information, please refer to the [Article](https://stackoverflow.com/questions/4037939/powershell-says-execution-of-scripts-is-disabled-on-this-system)_
 
