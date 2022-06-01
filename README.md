@@ -99,7 +99,7 @@ Install the latest version npm
 <h4> This error can occur, if you are testing this tool on a windows based machine :</h4>
 <img src="images/1.png" style="border:10px solid black" alt="error" width="900" ><br>
 
-1. To solve this issue run the following command on your shell :<br>
+<p>1. To solve this issue run the following command on your shell :</p>
   ```sh
     Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
   ```
