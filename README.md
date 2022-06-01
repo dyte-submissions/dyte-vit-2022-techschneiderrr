@@ -70,15 +70,15 @@ Install the latest version npm
 
 ### Installation
 
-1. Clone the repo
+1. Clone the repo.
    ```sh
    git clone https://github.com/dyte-submissions/dyte-vit-2022-techschneiderrr.git
    ```
-2. Go to the project directory   
+2. Go to the project directory.   
    ```sh
    cd myawesometool
    ```
-3. Install NPM packages
+3. Install NPM packages.
    ```sh
    npm install
    ```
@@ -87,8 +87,8 @@ Install the latest version npm
    ```sh
    sudo npm i -g
    ```
-5. fill your local machine's password
-6. Now you are good to go, we can run any command from the given 3 commands given <span>(<a href="#commands">Here</a>)</spanp>.
+5. Fill your local machine's password.
+6. Now you are good to go, we can run any command from the given 3 commands given <span><a href="#commands">Here</a></span>.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -97,7 +97,7 @@ Install the latest version npm
 ## Errors while tesing on windows
 
 This can be the error if you are testing this tool on a windows based machine :
-<img src="images/1.png" alt="error" width="900" >
+<img src="images/1.png" style="border:1px solid black" alt="error" width="900" >
 
 _For more information, please refer to the [Article](https://stackoverflow.com/questions/4037939/powershell-says-execution-of-scripts-is-disabled-on-this-system)_
 
