@@ -100,6 +100,7 @@ Install the latest version npm
 <img src="images/1.png" style="border:10px solid black" alt="error" width="900" ><br>
 
 <p>1. To solve this issue run the following command on your shell :</p>
+
   ```sh
     Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
   ```
