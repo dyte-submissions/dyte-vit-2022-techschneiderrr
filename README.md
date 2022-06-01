@@ -96,7 +96,7 @@ Install the latest version npm
 <!-- USAGE EXAMPLES -->
 ## Errors while tesing on windows
 
-<h6> This error can occur, if you are testing this tool on a windows based machine :</h6><br>
+<h3> This error can occur, if you are testing this tool on a windows based machine :</h3><br>
 <img src="images/1.png" style="border:10px solid black" alt="error" width="900" ><br>
 
 To solve this issue run the following command on your shell :<br>
