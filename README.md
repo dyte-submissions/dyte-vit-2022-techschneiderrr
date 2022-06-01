@@ -21,8 +21,9 @@
 
 <img src="images/demo.gif" alt="demo" width="900" >
 <div id="commands"></div>
-Above is a video demo of all the commands that can be executed after installation of the project. The commands are : <br>
+Above is a video demo of all the commands that can be executed after installation of the project. The commands are : 
 
+<br>
 
 1. To see all the options available to use in the command.
 ```sh
