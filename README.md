@@ -99,7 +99,7 @@ Install the latest version npm
 This can be the error if you are testing this tool on a windows based machine :
 <img src="images/1.png" alt="error" width="900" >
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more information, please refer to the [Article](https://stackoverflow.com/questions/4037939/powershell-says-execution-of-scripts-is-disabled-on-this-system)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
