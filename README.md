@@ -96,8 +96,14 @@ Install the latest version npm
 <!-- USAGE EXAMPLES -->
 ## Errors while tesing on windows
 
-This can be the error if you are testing this tool on a windows based machine :
-<img src="images/1.png" style="border:10px solid black" alt="error" width="900" >
+This can be the error if you are testing this tool on a windows based machine :<br>
+<img src="images/1.png" style="border:10px solid black" alt="error" width="900" ><br><br>
+
+To solve this issue run the following command on your shell :<br>
+```sh
+  Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+<img src="images/1.png" style="border:10px solid black" alt="error" width="900" ><br><br>
 
 _For more information, please refer to the [Article](https://stackoverflow.com/questions/4037939/powershell-says-execution-of-scripts-is-disabled-on-this-system)_
 
