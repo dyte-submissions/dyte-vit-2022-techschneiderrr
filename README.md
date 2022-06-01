@@ -105,7 +105,7 @@ Install the latest version npm
   ```
 <br>
 
-2. The following prompt will appear, simply select `yes to all` option : <br>
+<p>2. The following prompt will appear, simply select `yes to all` option : </p>
 <img src="images/2.png" style="border:10px solid black" alt="error" width="900" ><br>
 
 
