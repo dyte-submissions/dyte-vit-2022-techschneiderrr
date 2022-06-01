@@ -21,7 +21,8 @@
 
 <img src="images/demo.gif" alt="demo" width="900" >
 <div id="commands"></div>
-<p>Above is a video demo of all the commands that can be executed after installation of the project. The commands are : </p>
+<p>Above is a video demo of all the commands that can be executed after installation of the project. The complete video demo is available <a href="#vid">here</a>The commands are : </p>
+
 
 
 
@@ -131,7 +132,10 @@ _For more information, please refer to the [Article](https://stackoverflow.com/q
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+<div id="vid"></div>
 <!-- VIDEO DEMO -->
+
 ## Video Demo 
 
 https://user-images.githubusercontent.com/56251839/171447946-efc4de1c-aa05-4d5a-bf99-f2db0f9ebcaa.mp4
